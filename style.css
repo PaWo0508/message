@@ -2,7 +2,8 @@
 
 body {
   background-image: url("sea.jpg");
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 .main{
   padding: 0px 10px 10px 10px;
@@ -32,7 +33,7 @@ h1{
 
 h1 {
   font-family: 'Amatic SC', cursive;
-  font-size: 50px;
+  font-size: 22px;
   background: url(http://webcreatorbox.com/sample/images/check.png) repeat-x 0 10px;
   display: inline-block;
   padding: 0 10px
@@ -55,7 +56,7 @@ h1 {
   align-items: center;
   text-align:center;
   color: #FFFFAA;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 #logo{
