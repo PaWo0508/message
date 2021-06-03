@@ -2,7 +2,7 @@
 
 body {
   background-image: url("sea.jpg");
-  background-size: 60%;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 .main{
@@ -33,7 +33,7 @@ h1{
 
 h1 {
   font-family: 'Amatic SC', cursive;
-  font-size: 10px;
+  font-size: 30px;
   background: url(http://webcreatorbox.com/sample/images/check.png) repeat-x 0 10px;
   display: inline-block;
   padding: 0 10px
@@ -56,7 +56,7 @@ h1 {
   align-items: center;
   text-align:center;
   color: #FFFFAA;
-  font-size:15px;
+  font-size:30px;
 }
 
 #logo{
@@ -105,9 +105,9 @@ html,body{
 
 /*========= 動くハート用CSS ===============*/
 .heart {
-  font-size: 80px;
+  font-size: 40px;
   color: #FF3D67;
-  margin: 100px 0 0
+  margin: 50px 0 0
 }
 .heart:hover {
   -webkit-animation: heart-anim 1s linear .3s;
@@ -118,7 +118,7 @@ html,body{
 @-webkit-keyframes heart-anim {
   to {
     opacity: 0;
-    -webkit-transform: scale(50);
+    -webkit-transform: scale(20);
   }
 }
 @keyframes heart-anim {
