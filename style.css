@@ -1,0 +1,133 @@
+
+
+body {
+  background-image: url("sea.jpg");
+  background-size: cover;
+}
+.main{
+  padding: 0px 10px 10px 10px;
+}
+h1{
+  font: 20px/1.9 'Noto Sans JP', Arial, Verdana, 游ゴシック, YuGothic,'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', メイリオ, Meiryo,sans-serif;
+  font-weight: 800;
+  color: #4D474A;
+  border-bottom: 2px solid #736d71;
+}
+.button{
+  width: 120px;
+  height: 120px;
+  margin: 0px 0px 10px 10px;
+  border-radius: 5px;
+  display: inline-block;
+  background: rgba(102,102,102,0.8);
+  box-shadow: 2px 2px 2px rgba(255,255,255,0.4);
+  font: 18px/1.9 'Noto Sans JP', Arial, Verdana, 游ゴシック, YuGothic,'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', メイリオ, Meiryo,sans-serif;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+/*========= タイトル ===============*/
+
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC);
+
+h1 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 50px;
+  background: url(http://webcreatorbox.com/sample/images/check.png) repeat-x 0 10px;
+  display: inline-block;
+  padding: 0 10px
+}
+
+/*========= レイアウトのためのCSS ===============*/
+
+#wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+  color: #fff;
+  font-size: 50px;
+}
+
+#message{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+  color: #FFFFAA;
+  font-size: 40px;
+}
+
+#logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+  color: #fff;
+  font-size: 40px;
+}
+
+
+a{
+  color: #fff;
+}
+
+/*========= particle js を描画するエリア設定　キラキラ星 ===============*/
+
+html,body{
+  height: 100%;/*高さを100%にして描画エリアをとる*/
+}
+
+#particles-js{ 
+  position:fixed;/*描画固定*/
+  z-index:-1;/*描画を一番下に*/
+  width: 100%;
+  height: 100%;
+}
+
+#wrapper{
+  position: relative;/*描画を#particles-jsよりも上にするためposition:relative;を指定*/
+  z-index: 4;/*z-indexの数字を大きくすることで描画を#particles-jsよりも上に*/
+  width:100%;
+  height: 30%;
+}
+
+/*========= ハート用CSS ===============*/
+.mask {
+  -webkit-clip-path: url(#svgPath);
+  clip-path: url(#svgPath);
+}
+.shape {
+  height:1;
+}
+
+
+/*========= 動くハート用CSS ===============*/
+.heart {
+  font-size: 80px;
+  color: #FF3D67;
+  margin: 100px 0 0
+}
+.heart:hover {
+  -webkit-animation: heart-anim 1s linear .3s;
+  animation: heart-anim 1s linear .3s;
+}
+
+/* Animation setting */
+@-webkit-keyframes heart-anim {
+  to {
+    opacity: 0;
+    -webkit-transform: scale(50);
+  }
+}
+@keyframes heart-anim {
+  to {
+    opacity: 0;
+    transform: scale(50);
+  }
+}
+
+/* Basic style */
+body {
+  text-align: center;
+}
