@@ -11,7 +11,7 @@ body {
 h1{
   font: 20px/1.9 'Noto Sans JP', Arial, Verdana, 游ゴシック, YuGothic,'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', メイリオ, Meiryo,sans-serif;
   font-weight: 800;
-  color: #4D474A;
+  color: #FFFF66;
   border-bottom: 2px solid #736d71;
 }
 .button{
@@ -37,7 +37,12 @@ h1{
   color: #FFFF66;
   border-bottom: 2px solid #736d71;
 }
-
+body{
+  font: 20px/1.9 'Noto Sans JP', Arial, Verdana, 游ゴシック, YuGothic,'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', メイリオ, Meiryo,sans-serif;
+  font-weight: 800;
+  color: #FFFF66;
+  border-bottom: 2px solid #736d71;
+}
 a{
   color: #fff;
 }
