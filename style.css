@@ -2,7 +2,7 @@
 
 body {
   background-image: url("sea.jpg");
-  background-size: 90%;
+  background-size: 110%;
   background-repeat: no-repeat;
 }
 .main{
@@ -31,7 +31,7 @@ h1{
   color: #fff;
   font-size: 40px;
 }
-message{
+#message{
   font: 20px/1.9 'Noto Sans JP', Arial, Verdana, 游ゴシック, YuGothic,'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', メイリオ, Meiryo,sans-serif;
   font-weight: 800;
   color: #FFFF66;
