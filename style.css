@@ -2,7 +2,7 @@
 
 body {
   background-image: url("sea.jpg");
-  background-size: 100%;
+  background-size: 90%;
   background-repeat: no-repeat;
 }
 .main{
@@ -56,7 +56,7 @@ h1 {
   align-items: center;
   text-align:center;
   color: #FFFFAA;
- font: 18px/1.9 'Noto Sans JP', Arial, Verdana, 游ゴシック, YuGothic,'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', メイリオ, Meiryo,sans-serif;
+ font: 24px/1.9 'Noto Sans JP', Arial, Verdana, 游ゴシック, YuGothic,'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', メイリオ, Meiryo,sans-serif;
 }
 
 #logo{
